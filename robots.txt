@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arabic-tutor-site.vercel.app/sitemap.xml
