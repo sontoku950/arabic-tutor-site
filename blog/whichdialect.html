@@ -1,4 +1,78 @@
 <article>
+/* ===== article 専用ベーススタイル ===== */
+article {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 32px 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               "Noto Sans JP", "Noto Naskh Arabic", sans-serif;
+  line-height: 1.85;
+  color: #222;
+  background-color: #fff;
+}
+
+/* ===== 見出し ===== */
+article h1 {
+  font-size: 1.9rem;
+  margin-bottom: 1.4em;
+  line-height: 1.3;
+}
+
+article h2 {
+  font-size: 1.35rem;
+  margin-top: 2.6em;
+  margin-bottom: 0.9em;
+  padding-left: 12px;
+  border-left: 4px solid #444;
+}
+
+/* ===== テキスト ===== */
+article p {
+  margin-bottom: 1.2em;
+}
+
+article strong {
+  font-weight: 600;
+}
+
+/* ===== 区切り線 ===== */
+article hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2.8em 0;
+}
+
+/* ===== リスト ===== */
+article ul {
+  padding-left: 1.4em;
+  margin-bottom: 1.6em;
+}
+
+article li {
+  margin-bottom: 0.6em;
+}
+
+/* ===== RTL（アラビア語対策）===== */
+article [dir="rtl"] {
+  font-family: "Noto Naskh Arabic", "Amiri", serif;
+  font-size: 1.05em;
+}
+
+/* ===== モバイル最適化 ===== */
+@media (max-width: 600px) {
+  article {
+    padding: 22px 14px;
+  }
+
+  article h1 {
+    font-size: 1.6rem;
+  }
+
+  article h2 {
+    font-size: 1.2rem;
+  }
+}
+
   <h1>アラビア語の方言はどれを学ぶべき？国別おすすめ解説</h1>
 
   <p>
