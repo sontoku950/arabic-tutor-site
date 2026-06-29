@@ -1,0 +1,7 @@
+# Claude Code ローカル設定（公開不要）
+.claude/
+
+# OS / エディタの一時ファイル
+Thumbs.db
+.DS_Store
+*.swp
