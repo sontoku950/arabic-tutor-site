@@ -1,0 +1,11 @@
+{
+  "redirects": [
+    { "source": "/blog/kuwaitiwords2.html", "destination": "/blog/kuwaitiwords.html", "permanent": true },
+    { "source": "/blog/kuwaitiwords3.html", "destination": "/blog/kuwaitiwords.html", "permanent": true },
+    { "source": "/blog/kuwaitiwords4.html", "destination": "/blog/kuwaitiwords.html", "permanent": true },
+    { "source": "/blog/kuwaitiwords5.html", "destination": "/blog/kuwaitiwords.html", "permanent": true },
+    { "source": "/blog/kuwaitiwords6.html", "destination": "/blog/kuwaitiwords.html", "permanent": true },
+    { "source": "/blog/kuwaitiwords7.html", "destination": "/blog/kuwaitiwords.html", "permanent": true },
+    { "source": "/blog/kuwaitiwords8.html", "destination": "/blog/kuwaitiwords.html", "permanent": true }
+  ]
+}
