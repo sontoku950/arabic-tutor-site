@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://arabic-tutor-site.vercel.app/sitemap.xml
+Sitemap: https://arabic-tutor-site.vercel.app/sitemap-2026-07.xml
