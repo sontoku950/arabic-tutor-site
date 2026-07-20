@@ -289,3 +289,24 @@ section.page h2 {
   .site-header .inner { padding: 0.75rem 1rem; }
   .site-nav a { margin-left: 0.8rem; }
 }
+
+/* ===== RTL（アラビア語ページ）=====
+   dir="rtl" のページでのみ適用。日本語ページには影響しない。 */
+[dir="rtl"] body { text-align: right; }
+[dir="rtl"] .site-nav a { margin-left: 0; margin-right: 1.2rem; }
+[dir="rtl"] article ul,
+[dir="rtl"] article ol,
+[dir="rtl"] .toc ol { padding-left: 0; padding-right: 1.3rem; }
+[dir="rtl"] .box,
+[dir="rtl"] .toc,
+[dir="rtl"] .vocab { border-left: none; border-right: 5px solid var(--brand); }
+[dir="rtl"] .quote { border-left: none; border-right: 4px solid var(--line); }
+[dir="rtl"] .compare th,
+[dir="rtl"] .compare td { text-align: right; }
+[dir="rtl"] .vocab .arabic { direction: rtl; }
+/* 日本語の語句・価格はLTRで表示（数字と混在しても崩れないように） */
+[dir="rtl"] .ja { direction: ltr; unicode-bidi: isolate; display: inline-block; }
+[dir="rtl"] .price-note { color: var(--muted); font-size: 0.9rem; }
+@media (max-width: 640px) {
+  [dir="rtl"] .site-nav a { margin-left: 0; margin-right: 0.8rem; }
+}
