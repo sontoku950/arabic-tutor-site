@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://arabic-tutor-site.vercel.app/sitemap.xml
-Sitemap: https://arabic-tutor-site.vercel.app/sitemap-2026-07.xml
+Sitemap: https://sanad-arabic.com/sitemap.xml
+Sitemap: https://sanad-arabic.com/sitemap-2026-07.xml
